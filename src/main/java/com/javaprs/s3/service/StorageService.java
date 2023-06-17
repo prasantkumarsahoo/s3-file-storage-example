@@ -39,7 +39,7 @@ public class StorageService {
 
        String buckets="";
         for(Bucket s : s3Client.listBuckets() ) {
-            buckets =buckets +" ";
+            buckets = buckets +", " + s.getName();
         }
         return "All buckets:- " + buckets;
     }
