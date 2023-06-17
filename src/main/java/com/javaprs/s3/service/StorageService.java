@@ -1,4 +1,4 @@
-package com.javatechie.s3.service;
+package com.javaprs.s3.service;
 
 import com.amazonaws.services.s3.AmazonS3;
 import com.amazonaws.services.s3.model.Bucket;
